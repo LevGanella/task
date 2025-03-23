@@ -1,4 +1,4 @@
-from games.hok import play_hok
+from games.nok import play_nok
 from games.geomprog import play_geomprog
 
 def run_game(game):
@@ -12,7 +12,7 @@ def main():
     choice = input("Ваш выбор (1 или 2): ")
 
     if choice == '1':
-        run_game(play_hok)
+        run_game(play_nok)
     elif choice == '2':
         run_game(play_geomprog)
     else:
